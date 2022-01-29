@@ -1,31 +1,112 @@
 const data = [
   {
-    name: 'Rare Wind',
+    name: 'Brendan Mcneil',
   },
   {
-    name: 'Saint Petersburg',
+    name: 'Garry Barnett',
   },
   {
-    name: 'Deep Blue',
+    name: 'Thurman Logan',
   },
   {
-    name: 'Ripe Malinka',
+    name: 'Heath Wilson',
   },
   {
-    name: 'Near Moon',
+    name: 'Harold Russo',
   },
   {
-    name: 'Wild Apple',
+    name: 'Derek Morse',
   },
   {
-    name: 'Ladoga Bottom',
+    name: 'Marjorie Arnold',
   },
   {
-    name: 'Sunny Morning',
+    name: 'Wendi Bullock',
   },
   {
-    name: 'Lemon Gate',
-  }
+    name: 'Elvia Frank',
+  },
+  {
+    name: 'Xavier Huerta',
+  },
+  {
+    name: 'Antwan Norman',
+  },
+  {
+    name: 'Kirk Levine',
+  },
+  {
+    name: 'Brendan Mcneil',
+  },
+  {
+    name: 'Garry Barnett',
+  },
+  {
+    name: 'Thurman Logan',
+  },
+  {
+    name: 'Heath Wilson',
+  },
+  {
+    name: 'Harold Russo',
+  },
+  {
+    name: 'Derek Morse',
+  },
+  {
+    name: 'Marjorie Arnold',
+  },
+  {
+    name: 'Wendi Bullock',
+  },
+  {
+    name: 'Elvia Frank',
+  },
+  {
+    name: 'Xavier Huerta',
+  },
+  {
+    name: 'Antwan Norman',
+  },
+  {
+    name: 'Kirk Levine',
+  },
+  {
+    name: 'Brendan Mcneil',
+  },
+  {
+    name: 'Garry Barnett',
+  },
+  {
+    name: 'Thurman Logan',
+  },
+  {
+    name: 'Heath Wilson',
+  },
+  {
+    name: 'Harold Russo',
+  },
+  {
+    name: 'Derek Morse',
+  },
+  {
+    name: 'Marjorie Arnold',
+  },
+  {
+    name: 'Wendi Bullock',
+  },
+  {
+    name: 'Elvia Frank',
+  },
+  {
+    name: 'Xavier Huerta',
+  },
+  {
+    name: 'Antwan Norman',
+  },
+  {
+    name: 'Kirk Levine',
+  },
 ];
 
 export default data;

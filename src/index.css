@@ -26,6 +26,10 @@ code {
   margin-bottom: 40px;
 }
 
+.banner-image img{
+  width: 100%;
+}
+
 .raffle-header__buttons {
   display: flex;
   margin-top: 40px;

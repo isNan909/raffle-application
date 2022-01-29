@@ -20,12 +20,12 @@ function App() {
   const confettiWrapper = useRef(null);
   const height = 60;
   const transitions = useTransition(
-    names.map((data, i) => ({ ...data, y: i * height })),
+    names.map((data, i) => ({ ...data, y: 0.5 * i })),
     (d) => d.name,
     {
       from: { position: 'initial', opacity: 0 },
       leave: {
-        height: 0,
+        height: height - (height * 0.2),
         opacity: 0,
       },
       enter: ({ y }) => ({ y, opacity: 1 }),
@@ -71,7 +71,7 @@ function App() {
   return (
     <div className="container" ref={confettiWrapper}>
       <div className="raffle-header">
-        <img src={HeadingImage} alt="heading logo" />
+        <img className="banner-image" src={HeadingImage} alt="heading logo" />
         {!initialLoad && (
           <div className="raffle-header__buttons">
             <button className="button-primary" onClick={startRaffle}>
@@ -97,12 +97,13 @@ function App() {
         />
       )}
       <div className="raffle-names">
-        {transitions.map(({ item, props: { ...rest }, index }) => (
+        {transitions.map(({ item, props: { y, ...rest }, index }) => (
           <animated.div
             className="raffle-listnames"
             key={index}
             style={{
-              ...rest,
+              transform: y.interpolate(y => `translate3d(0,${y}px,0)`),
+              ...rest
             }}
           >
             <div className="raffle-namelist">
